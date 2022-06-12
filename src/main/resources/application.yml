@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+compliment:
+  url: https://castlots.org/generator-komplimentov-devushke/generate.php
+  x-requested-with: XMLHttpRequest
+  read-timeout: 5000
+  connect-timeout: 1000
+  max-conn-total: 20
+  max-conn-per-route: 2
+
+bot:
+  name: complimento
+  username: m_complimento_bot
+  token: 5220816634:AAFJeM9wrQDvnhxfQyxezqnikz5FnpwY1zU
