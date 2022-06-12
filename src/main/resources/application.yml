@@ -1,6 +1,3 @@
-server:
-  port: 8081
-
 compliment:
   url: https://castlots.org/generator-komplimentov-devushke/generate.php
   x-requested-with: XMLHttpRequest
