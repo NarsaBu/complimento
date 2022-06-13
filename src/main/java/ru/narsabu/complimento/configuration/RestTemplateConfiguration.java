@@ -31,6 +31,7 @@ public class RestTemplateConfiguration {
     public RestTemplate complimentRestTemplate(RestTemplateBuilder restTemplateBuilder) {
         return createAbstractRestTemplateBuilder(restTemplateBuilder, complimentConfigurationProperties)
                 .defaultHeader(X_REQUESTED_WITH, complimentConfigurationProperties.getXRequestedWith())
+                .defaultHeader("Content-Type", "text/plain")
                 .build();
     }
 

@@ -1,5 +1,5 @@
 compliment:
-  url: https://castlots.org/generator-komplimentov-devushke/generate.php
+  url: castlots.org/generator-komplimentov-devushke/generate.php
   x-requested-with: XMLHttpRequest
   read-timeout: 5000
   connect-timeout: 1000
